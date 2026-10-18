@@ -1,0 +1,15 @@
+html, body { margin: 0; padding: 0; background: transparent !important; font-family: 'Segoe UI', Arial, sans-serif; overflow: hidden; }
+#box {
+  position: fixed; top: 6vh; left: 50%; transform: translateX(-50%);
+  text-align: center; color: #fff; padding: 10px 30px;
+  background: none; border: none; box-shadow: none;
+}
+.hidden { display: none; }
+.title { font-size: 34px; font-weight: 700; letter-spacing: 6px; text-shadow: 0 0 10px #7cc8ff, 0 0 24px #7cc8ff, 0 2px 4px #000; animation: glow 2.6s ease-in-out infinite alternate; }
+.subtitle { margin-top: 4px; font-size: 16px; text-shadow: 0 1px 4px #000, 0 0 8px #000; }
+.emote { margin-top: 10px; font-size: 18px; color: #bfe6ff; text-shadow: 0 0 10px #7cc8ff, 0 1px 4px #000; }
+.hint { margin-top: 6px; font-size: 12px; opacity: .85; text-shadow: 0 1px 4px #000, 0 0 8px #000; }
+@keyframes glow {
+  from { text-shadow: 0 0 6px #7cc8ff, 0 0 14px #7cc8ff, 0 2px 4px #000; }
+  to   { text-shadow: 0 0 12px #7cc8ff, 0 0 34px #7cc8ff, 0 2px 4px #000; }
+}
